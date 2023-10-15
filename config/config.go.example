@@ -1,0 +1,10 @@
+package config
+
+const (
+	PrimaryConnectionString = "AccountEndpoint=COSMOSDBENDPOINT;AccountKey=ACCOUNTKEY"
+	CosmosDbEndpoint        = "COSMOSDBENDPOINT"
+	CosmosDbKey             = "ACCOUNTKEY"
+	DatabaseName            = "DATABASENAME"
+	ContainerName           = "customer"
+	PartitionKey            = "/customerId"
+)
